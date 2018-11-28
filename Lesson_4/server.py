@@ -48,18 +48,19 @@ def presence_response(message):
         return {'response': 400, 'error': 'Не верный запрос!'}
 
 
-# Запуск сервера
-server = socket(AF_INET, SOCK_STREAM)
-server.bind((address, port))
-server.listen(5)
-print('Сервер запущен c адресом прослушивания: ', 'ALL' if address == '' else address, ' на порту: ', port)
+if __name__ == '__main__':
+    # Запуск сервера
+    server = socket(AF_INET, SOCK_STREAM)
+    server.bind((address, port))
+    server.listen(5)
+    print('Сервер запущен c адресом прослушивания: ', 'ALL' if address == '' else address, ' на порту: ', port)
 
-# Чтение запросов
-while True:
-    client, addr = server.accept()
-    presence = get_message(client)
-    print('Получен запрос от клиента, с адреса: ', addr[0])
-    print(presence)
-    response = presence_response(presence)
-    send_message(client, response)
-    client.close()
+    # Чтение запросов
+    while True:
+        client, addr = server.accept()
+        presence = get_message(client)
+        print('Получен запрос от клиента, с адреса: ', addr[0])
+        print(presence)
+        response = presence_response(presence)
+        send_message(client, response)
+        client.close()

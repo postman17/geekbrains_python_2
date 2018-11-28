@@ -1,5 +1,4 @@
-# Кодировка
-ENCODING = 'utf-8'
+
 
 
 BASIC_NOTICE = 100

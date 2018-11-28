@@ -1,6 +1,6 @@
-from .settings import *
 import json
 
+ENCODING = 'utf-8'
 
 def encode_to_bytes(request):
     if isinstance(request, dict):
@@ -18,7 +18,7 @@ def decode_to_dict(response):
         if isinstance(message, dict):
             return message
         else:
-            TypeError
+            raise TypeError
     else:
         raise TypeError
 

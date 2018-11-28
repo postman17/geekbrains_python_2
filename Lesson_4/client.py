@@ -72,12 +72,13 @@ def check_message(response):
     return response
 
 
-# Создаем сокет
-client = socket(AF_INET, SOCK_STREAM)
-# Соединяемся с сервером
-client.connect((address, port))
-presence = create_presence()
-send_message(client, presence)
-response = get_message(client)
-response = check_message(response)
-print(response)
+if __name__ == '__main__':
+    # Создаем сокет
+    client = socket(AF_INET, SOCK_STREAM)
+    # Соединяемся с сервером
+    client.connect((address, port))
+    presence = create_presence()
+    send_message(client, presence)
+    response = get_message(client)
+    response = check_message(response)
+    print(response)
