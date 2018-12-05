@@ -2,10 +2,11 @@ import sys
 import time
 from socket import socket, AF_INET, SOCK_STREAM
 from jim.utils import send_message, get_message
-from errors import UsernameLenError, MandatoryKeyError, ResponseCodeLenError, ResponseCodeError
+from errors import UsernameLenError, MandatoryKeyError, ResponseCodeLenError, ResponseCodeError, AccountNameNotStr, ResponseNotDict
 from jim.settings import *
 import log.client_log_config
 import logging
+from log.decorators import Log
 
 # Скрипт клиента месенджера
 # флаги запуска:
@@ -14,14 +15,15 @@ import logging
 
 # Функции логирования
 logger = logging.getLogger('client-log')
+log = Log(logger)
 
 
-def log_info(message):
-    logger.info(message)
-
-
-def log_warning(message):
-    logger.warning(message)
+# def log_info(message):
+#     logger.info(message)
+#
+#
+# def log_warning(message):
+#     logger.warning(message)
 
 
 def log_critical(message):
@@ -68,12 +70,12 @@ else:
         port = 7777
 
 
+@log
 def create_presence(account_name='Guest'):
     if not isinstance(account_name, str):
-        log_warning('Формирование presense сообщения. Account_name не является строкой.')
-        raise TypeError
+        raise AccountNameNotStr(account_name)
+
     if len(account_name) > 25:
-        log_warning('Формирование presense сообщения. Длина account_name больше 25 символов.')
         raise UsernameLenError(account_name)
     message = {
         'action': 'presence',
@@ -82,25 +84,20 @@ def create_presence(account_name='Guest'):
             'account_name': account_name
         }
     }
-    log_info('Сформировано presense сообщение.')
     return message
 
 
+@log
 def check_message(response):
     if not isinstance(response, dict):
-        log_warning('Проверка полученного сообщения. Сообщение не является словарем.')
-        raise TypeError
+        raise ResponseNotDict(response)
     if 'response' not in response:
-        log_warning('Проверка полученного сообщения. В сообщении отсутствует поле \'response\'.')
         raise MandatoryKeyError('response')
     code = response['response']
     if len(str(code)) != 3:
-        log_warning('Проверка полученного сообщения. Неправильная длина кода ответа сервера.')
         raise ResponseCodeLenError(code)
     if code not in RESPONSE_CODES:
-        log_warning('Проверка полученного сообщения. Неправильный код ответа сервера.')
         raise ResponseCodeError(code)
-    log_info('Полученное сообщение проверено.')
     return response
 
 
@@ -114,11 +111,8 @@ if __name__ == '__main__':
         print('Соединение с сервером не установлено!')
         log_critical('Соединение с сервером не установлено!')
         quit()
-    log_info(f'Установлено подключение по адресу {address}, порт {port}')
     presence = create_presence()
     send_message(client, presence)
-    log_info('Отправлено presense сообщение')
     response = get_message(client)
-    log_info('Получен ответ на presense сообщение')
     response = check_message(response)
     print(response)

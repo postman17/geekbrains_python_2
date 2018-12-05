@@ -1,0 +1,127 @@
+2018-12-05 15:48:05,426 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 15:48:05,426 INFO client Сформировано presense сообщение.
+2018-12-05 15:48:05,426 INFO client Отправлено presense сообщение
+2018-12-05 15:48:05,427 INFO client Получен ответ на presense сообщение
+2018-12-05 15:48:05,427 INFO client Полученное сообщение проверено.
+2018-12-05 15:49:23,274 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 15:49:23,274 INFO client Сформировано presense сообщение.
+2018-12-05 15:49:23,274 INFO client Отправлено presense сообщение
+2018-12-05 15:49:23,274 INFO client Получен ответ на presense сообщение
+2018-12-05 15:49:23,274 INFO client Полученное сообщение проверено.
+2018-12-05 15:50:37,536 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 15:50:37,536 INFO client Сформировано presense сообщение.
+2018-12-05 15:50:37,536 INFO client Отправлено presense сообщение
+2018-12-05 15:50:37,536 INFO client Получен ответ на presense сообщение
+2018-12-05 15:50:37,536 INFO client Полученное сообщение проверено.
+2018-12-05 16:25:00,087 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 16:25:00,087 INFO client Сформировано presense сообщение.
+2018-12-05 16:25:00,087 INFO decorators = {'action': 'presence', 'time': 1544009100.0875912, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 16:25:00,088 INFO client Отправлено presense сообщение
+2018-12-05 16:25:00,088 INFO client Получен ответ на presense сообщение
+2018-12-05 16:25:00,088 INFO client Полученное сообщение проверено.
+2018-12-05 16:25:00,088 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
+2018-12-05 16:25:59,376 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 16:25:59,376 INFO client Сформировано presense сообщение.
+2018-12-05 16:25:59,376 INFO decorators = {'action': 'presence', 'time': 1544009159.3766444, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 16:25:59,377 INFO client Отправлено presense сообщение
+2018-12-05 16:25:59,377 INFO client Получен ответ на presense сообщение
+2018-12-05 16:25:59,377 INFO client Полученное сообщение проверено.
+2018-12-05 16:25:59,377 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
+2018-12-05 16:43:42,747 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 16:43:42,747 INFO client Сформировано presense сообщение.
+2018-12-05 16:43:42,747 INFO decorators = {'action': 'presence', 'time': 1544010222.7473583, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 16:43:42,747 INFO client Отправлено presense сообщение
+2018-12-05 16:43:42,748 INFO client Получен ответ на presense сообщение
+2018-12-05 16:43:42,748 INFO client Полученное сообщение проверено.
+2018-12-05 16:43:42,748 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
+2018-12-05 17:07:42,649 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:07:42,649 INFO client Сформировано presense сообщение.
+2018-12-05 17:07:42,649 INFO decorators = {'action': 'presence', 'time': 1544011662.6498115, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:07:42,649 INFO client Отправлено presense сообщение
+2018-12-05 17:07:42,649 INFO client Получен ответ на presense сообщение
+2018-12-05 17:07:42,649 INFO client Полученное сообщение проверено.
+2018-12-05 17:07:42,649 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
+2018-12-05 17:09:47,307 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:09:47,307 INFO client Сформировано presense сообщение.
+2018-12-05 17:09:47,307 INFO decorators = {'action': 'presence', 'time': 1544011787.307292, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:11:11,692 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:11:11,692 INFO client Сформировано presense сообщение.
+2018-12-05 17:11:11,692 INFO decorators = {'action': 'presence', 'time': 1544011871.692294, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:11:11,692 INFO client Отправлено presense сообщение
+2018-12-05 17:11:11,692 INFO client Получен ответ на presense сообщение
+2018-12-05 17:11:11,692 INFO client Полученное сообщение проверено.
+2018-12-05 17:11:11,692 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
+2018-12-05 17:19:04,819 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:19:04,819 WARNING client Формирование presense сообщения. Длина account_name больше 25 символов.
+2018-12-05 17:21:25,615 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:25:23,357 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:28:25,928 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:28:25,928 INFO decorators = {'action': 'presence', 'time': 1544012905.9287827, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:28:25,928 INFO client Отправлено presense сообщение
+2018-12-05 17:28:25,928 INFO client Получен ответ на presense сообщение
+2018-12-05 17:32:02,064 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:32:02,064 INFO decorators = {'action': 'presence', 'time': 1544013122.0645041, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:32:02,064 INFO client Отправлено presense сообщение
+2018-12-05 17:32:02,064 INFO client Получен ответ на presense сообщение
+2018-12-05 17:35:18,735 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:35:18,735 INFO decorators = {'action': 'presence', 'time': 1544013318.7350988, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:35:18,735 INFO client Отправлено presense сообщение
+2018-12-05 17:35:18,750 INFO client Получен ответ на presense сообщение
+2018-12-05 17:37:17,367 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:37:17,367 INFO decorators = {'action': 'presence', 'time': 1544013437.367598, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:37:17,367 INFO client Отправлено presense сообщение
+2018-12-05 17:37:17,367 INFO client Получен ответ на presense сообщение
+2018-12-05 17:37:40,646 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:37:40,646 INFO decorators = {'action': 'presence', 'time': 1544013460.6460338, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:37:40,646 INFO client Отправлено presense сообщение
+2018-12-05 17:37:40,646 INFO client Получен ответ на presense сообщение
+2018-12-05 17:38:58,907 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:39:41,466 CRITICAL client Соединение с сервером не установлено!
+2018-12-05 17:39:50,645 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:40:14,280 CRITICAL client Соединение с сервером не установлено!
+2018-12-05 17:40:22,006 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:40:22,006 INFO decorators = {'action': 'presence', 'time': 1544013622.0061896, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:40:22,006 INFO client Отправлено presense сообщение
+2018-12-05 17:40:22,006 INFO client Получен ответ на presense сообщение
+2018-12-05 17:40:22,006 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
+2018-12-05 17:40:59,041 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:40:59,041 INFO decorators = {'action': 'presence', 'time': 1544013659.041638, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:40:59,041 INFO client Отправлено presense сообщение
+2018-12-05 17:40:59,041 INFO client Получен ответ на presense сообщение
+2018-12-05 17:40:59,041 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
+2018-12-05 17:41:16,806 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:41:16,806 ERROR decorators = {'action': 'presence', 'time': 1544013676.806161, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:41:16,806 INFO client Отправлено presense сообщение
+2018-12-05 17:41:16,806 INFO client Получен ответ на presense сообщение
+2018-12-05 17:41:16,806 ERROR decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
+2018-12-05 17:43:59,665 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:43:59,665 ERROR decorators = Account_name adfgasdfsadf не является строкой. - create_presence - __main__
+2018-12-05 17:44:36,621 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:44:36,621 ERROR decorators = Не хватает обязательного атрибута adfgasdfsadf - create_presence - __main__
+2018-12-05 17:45:14,698 INFO client Установлено подключение по адресу localhost, порт 7777
+2018-12-05 17:45:14,698 ERROR decorators = Response adfgasdfsadf не является словарем. - create_presence - __main__
+2018-12-05 17:51:38,499 INFO decorators = {'action': 'presence', 'time': 1544014298.4993048, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:51:38,500 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
+2018-12-05 17:52:31,179 INFO decorators = {'action': 'presence', 'time': 1544014351.1784096, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:53:43,791 CRITICAL client Соединение с сервером не установлено!
+2018-12-05 17:55:22,496 ERROR decorators = {'action': 'presence', 'time': 1544014522.496949, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:55:22,496 INFO decorators = {'action': 'presence', 'time': 1544014522.496949, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 17:55:22,497 ERROR decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
+2018-12-05 17:55:22,497 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
+2018-12-05 17:55:57,058 ERROR decorators = Response asfasdf не является словарем. - create_presence - __main__
+2018-12-05 17:55:57,058 INFO decorators = Response asfasdf не является словарем. - create_presence - __main__
+2018-12-05 17:56:31,895 INFO decorators = {'action': 'presence', 'time': 1544014591.8953102, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 18:17:09,189 INFO decorators = {'action': 'presence', 'time': 1544015829.1892536, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 18:25:35,151 INFO decorators = {'action': 'presence', 'time': 1544016335.1510785, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 18:26:47,046 INFO decorators = {'action': 'presence', 'time': 1544016407.0461056, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 18:27:08,986 INFO decorators = {'action': 'presence', 'time': 1544016428.9869494, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 18:27:13,783 INFO decorators = {'action': 'presence', 'time': 1544016433.7836664, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 18:27:19,354 INFO decorators = {'action': 'presence', 'time': 1544016439.3548636, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 18:27:36,406 INFO decorators = {'action': 'presence', 'time': 1544016456.4067142, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 18:28:38,531 INFO decorators = {'action': 'presence', 'time': 1544016518.5317972, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 18:29:19,743 INFO decorators = {'action': 'presence', 'time': 1544016559.7439368, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 18:31:53,966 INFO decorators = {'action': 'presence', 'time': 1544016713.9661744, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 18:32:25,146 ERROR decorators = Response asdfasf не является словарем. - create_presence - __main__
+2018-12-05 18:32:25,146 INFO decorators = Response asdfasf не является словарем. - create_presence - __main__
+2018-12-05 19:10:13,378 INFO decorators = {'action': 'presence', 'time': 1544019013.3787162, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 19:10:13,378 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__

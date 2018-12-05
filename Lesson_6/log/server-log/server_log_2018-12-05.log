@@ -1,0 +1,124 @@
+2018-12-05 15:19:29,170 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 15:22:49,238 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 15:22:49,238 INFO server Presence. Сформирован response с кодом 200
+2018-12-05 15:22:49,238 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 15:27:23,787 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 15:27:26,637 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 15:27:26,637 INFO server Presence. Сформирован response с кодом 200
+2018-12-05 15:27:26,637 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 15:50:33,436 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 15:50:37,536 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 15:50:37,536 INFO server Presence. Сформирован response с кодом 200
+2018-12-05 15:50:37,536 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 16:20:53,896 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 16:25:00,088 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 16:25:00,088 INFO server Presence. Сформирован response с кодом 200
+2018-12-05 16:25:00,088 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 16:25:56,849 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 16:25:59,377 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 16:25:59,377 INFO server Presence. Сформирован response с кодом 200
+2018-12-05 16:25:59,377 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 16:43:40,060 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 16:43:42,747 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 16:43:42,748 INFO decorators args: ({'action': 'presence', 'time': 1544010222.7473583, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 16:43:42,748 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:07:38,592 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:07:42,649 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:07:42,649 INFO decorators args: ({'action': 'presence', 'time': 1544011662.6498115, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 17:07:42,649 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:09:44,537 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:11:09,163 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:11:11,692 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:11:11,692 INFO decorators args: ({'action': 'presence', 'time': 1544011871.692294, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 17:11:11,692 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:18:58,182 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:21:23,051 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:25:20,988 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:28:22,758 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:28:25,928 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:28:25,928 INFO decorators args: ({'action': 'presence', 'time': 1544012905.9287827, 'user': {'account_name': 'Guest'}},)= {'response': 900} - presence_response - __main__
+2018-12-05 17:28:25,928 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:32:02,064 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:32:02,064 INFO decorators args: ({'action': 'presence', 'time': 1544013122.0645041, 'user': {'account_name': 'Guest'}},)= {'response': 900} - presence_response - __main__
+2018-12-05 17:32:02,064 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:35:18,750 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:35:18,750 INFO decorators args: ({'action': 'presence', 'time': 1544013318.7350988, 'user': {'account_name': 'Guest'}},)= {'response': 900} - presence_response - __main__
+2018-12-05 17:35:18,750 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:37:17,367 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:37:17,367 INFO decorators args: ({'action': 'presence', 'time': 1544013437.367598, 'user': {'account_name': 'Guest'}},)= {'response': 900} - presence_response - __main__
+2018-12-05 17:37:17,367 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:37:40,646 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:37:40,646 INFO decorators args: ({'action': 'presence', 'time': 1544013460.6460338, 'user': {'account_name': 'Guest'}},)= {'response': 900} - presence_response - __main__
+2018-12-05 17:37:40,646 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:39:47,785 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:40:18,779 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:40:22,006 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:40:22,006 INFO decorators args: ({'action': 'presence', 'time': 1544013622.0061896, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 17:40:22,006 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:40:59,041 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:40:59,041 INFO decorators args: ({'action': 'presence', 'time': 1544013659.041638, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 17:40:59,041 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:41:16,806 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:41:16,806 INFO decorators args: ({'action': 'presence', 'time': 1544013676.806161, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 17:41:16,806 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:44:33,450 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:45:12,156 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:51:35,266 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:51:38,499 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:51:38,499 INFO decorators args: ({'action': 'presence', 'time': 1544014298.4993048, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 17:51:38,499 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:52:31,179 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:52:31,179 INFO decorators args: ({'action': 'presence', 'time': 1544014351.1784096, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 17:52:31,179 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:53:50,254 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:55:20,229 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:55:22,496 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:55:22,496 ERROR decorators args: ({'action': 'presence', 'time': 1544014522.496949, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 17:55:22,497 INFO decorators args: ({'action': 'presence', 'time': 1544014522.496949, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 17:55:22,497 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 17:56:29,717 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 17:56:31,896 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 17:56:31,896 INFO decorators args: ({'action': 'presence', 'time': 1544014591.8953102, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 17:56:31,896 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 18:17:09,189 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 18:17:09,189 INFO decorators args: ({'action': 'presence', 'time': 1544015829.1892536, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 18:17:09,189 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 18:25:35,151 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 18:25:35,151 INFO decorators args: ({'action': 'presence', 'time': 1544016335.1510785, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 18:25:35,151 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 18:26:47,046 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 18:26:47,046 INFO decorators args: ({'action': 'presence', 'time': 1544016407.0461056, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 18:26:47,046 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 18:27:08,986 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 18:27:08,986 INFO decorators args: ({'action': 'presence', 'time': 1544016428.9869494, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 18:27:08,986 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 18:27:13,783 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 18:27:13,783 INFO decorators args: ({'action': 'presence', 'time': 1544016433.7836664, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 18:27:13,783 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 18:27:19,354 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 18:27:19,354 INFO decorators args: ({'action': 'presence', 'time': 1544016439.3548636, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 18:27:19,354 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 18:27:36,406 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 18:27:36,406 INFO decorators args: ({'action': 'presence', 'time': 1544016456.4067142, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 18:27:36,406 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 18:28:26,591 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 18:28:38,531 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 18:28:38,531 INFO decorators args: ({'action': 'presence', 'time': 1544016518.5317972, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 18:28:38,531 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 18:29:01,230 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 18:29:10,406 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 18:29:19,743 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 18:29:19,743 INFO decorators args: ({'action': 'presence', 'time': 1544016559.7439368, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 18:29:19,743 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 18:31:51,365 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 18:31:53,966 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 18:31:53,966 INFO decorators args: ({'action': 'presence', 'time': 1544016713.9661744, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 18:31:53,966 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
+2018-12-05 18:36:50,185 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 18:40:31,443 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 18:41:15,833 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 18:53:19,754 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 19:10:10,640 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-05 19:10:13,378 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-05 19:10:13,378 INFO decorators args: ({'action': 'presence', 'time': 1544019013.3787162, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-05 19:10:13,378 INFO server Отправлено presense сообщение на адрес: 127.0.0.1

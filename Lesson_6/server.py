@@ -3,6 +3,7 @@ from socket import socket, AF_INET, SOCK_STREAM
 from jim.utils import send_message, get_message
 import log.server_log_config
 import logging
+from log.decorators import Log
 
 # Скрипт сервера месенджера
 # флаги запуска:
@@ -11,6 +12,7 @@ import logging
 
 # Функции логирования
 logger = logging.getLogger('server-log')
+log = Log(logger)
 
 
 def log_info(message):
@@ -61,12 +63,11 @@ else:
         port = 7777
 
 
+@log
 def presence_response(message):
     if 'action' in message and message['action'] == 'presence' and 'time' in message and isinstance(message['time'], float):
-        log_info('Presence. Сформирован response с кодом 200')
         return {'response': 200}
     else:
-        log_info('Presence. Сформирован response с кодом 400')
         return {'response': 400, 'error': 'Не верный запрос!'}
 
 

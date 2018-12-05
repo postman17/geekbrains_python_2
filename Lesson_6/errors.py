@@ -28,3 +28,19 @@ class MandatoryKeyError(Exception):
 
     def __str__(self):
         return 'Не хватает обязательного атрибута {}'.format(self.key)
+
+
+class AccountNameNotStr(Exception):
+    def __init__(self, name):
+        self.name = name
+
+    def __str__(self):
+        return 'Account_name {} не является строкой.'.format(self.name)
+
+
+class ResponseNotDict(Exception):
+    def __init__(self, response):
+        self.response = response
+
+    def __str__(self):
+        return 'Response {} не является словарем.'.format(self.response)
