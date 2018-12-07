@@ -72,6 +72,7 @@ else:
 
 @log
 def create_presence(account_name='Guest'):
+    raise AccountNameNotStr(account_name)
     if not isinstance(account_name, str):
         raise AccountNameNotStr(account_name)
 

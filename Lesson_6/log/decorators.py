@@ -30,7 +30,9 @@ class Log:
                     ResponseNotDict) as e:
                 result = e
                 message = Log._create_message(result, *args, **kwargs)
-                self.logger.error('{} - {} - {}'.format(message, func.__name__, func.__module__))
+                # self.logger.error('{} - {} - {}'.format(message, func.__name__, func.__module__))
+                self.logger.exception('{} - {} - {}'.format(message, func.__name__, func.__module__))
+                raise
             message = Log._create_message(result, *args, **kwargs)
             self.logger.info('{} - {} - {}'.format(message, func.__name__, func.__module__))
             return result

@@ -125,3 +125,5 @@
 2018-12-05 18:32:25,146 INFO decorators = Response asdfasf не является словарем. - create_presence - __main__
 2018-12-05 19:10:13,378 INFO decorators = {'action': 'presence', 'time': 1544019013.3787162, 'user': {'account_name': 'Guest'}} - create_presence - __main__
 2018-12-05 19:10:13,378 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
+2018-12-05 22:21:02,487 INFO decorators = {'action': 'presence', 'time': 1544030462.4876764, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-05 22:21:02,487 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
