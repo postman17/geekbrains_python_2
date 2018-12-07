@@ -1,0 +1,4 @@
+2018-12-06 09:07:45,068 INFO server Сервер запущен c адресом прослушивания: ALL, на порту: 7777
+2018-12-06 09:07:49,219 INFO server Получен запрос от клиента, с адреса: 127.0.0.1
+2018-12-06 09:07:49,219 INFO decorators args: ({'action': 'presence', 'time': 1544069269.2195013, 'user': {'account_name': 'Guest'}},)= {'response': 200} - presence_response - __main__
+2018-12-06 09:07:49,219 INFO server Отправлено presense сообщение на адрес: 127.0.0.1
