@@ -72,7 +72,6 @@ else:
 
 @log
 def create_presence(account_name='Guest'):
-    raise AccountNameNotStr(account_name)
     if not isinstance(account_name, str):
         raise AccountNameNotStr(account_name)
 
@@ -102,6 +101,21 @@ def check_message(response):
     return response
 
 
+def create_message(message, account_name='Guest'):
+    result = {
+        'action': 'msg',
+        'time': time.time(),
+        'to': '#all',
+        'from': 'Guest',
+        'message': message
+    }
+    return result
+
+
+def read_message(response):
+    return response['message']
+
+
 if __name__ == '__main__':
     # Создаем сокет
     client = socket(AF_INET, SOCK_STREAM)
@@ -117,3 +131,14 @@ if __name__ == '__main__':
     response = get_message(client)
     response = check_message(response)
     print(response)
+
+    while True:
+        flag = input('Введите флаг \'r\' для чтения сообшений, \'w\' для отправки сообщения: ')
+        if flag == 'r':
+            response = read_message(get_message(client))
+            print(response)
+        elif flag == 'w':
+            message = input('Введите сообщение: ')
+            send_message(client, create_message(message))
+        else:
+            print('Введен неправильный флаг!')

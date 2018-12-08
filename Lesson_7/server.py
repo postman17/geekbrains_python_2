@@ -1,9 +1,10 @@
 import sys
 from socket import socket, AF_INET, SOCK_STREAM
-from jim.utils import send_message, get_message
+from jim.utils import send_message, get_message, decode_to_dict, encode_to_bytes
 import log.server_log_config
 import logging
 from log.decorators import Log
+import select
 
 # Скрипт сервера месенджера
 # флаги запуска:
@@ -71,22 +72,65 @@ def presence_response(message):
         return {'response': 400, 'error': 'Не верный запрос!'}
 
 
+def check_message(message):
+    if 'action' in message and message['action'] == 'msg' and 'time' in message and isinstance(message['time'], float):
+        return True
+    else:
+        return False
+
+
+def list_messages(clients):
+    messages = []
+    for client in clients:
+        try:
+            bytes_response = client.recv(1024)
+            response = decode_to_dict(bytes_response)
+            if check_message(response):
+                messages.append(response)
+            else:
+                print('Неправильное сообщение!!!')
+        except:
+            pass
+    return messages
+
+
 if __name__ == '__main__':
     # Запуск сервера
     server = socket(AF_INET, SOCK_STREAM)
     server.bind((address, port))
     server.listen(5)
+    server.settimeout(0.2)
     log_info('Сервер запущен c адресом прослушивания: {}, на порту: {}'.format('ALL' if address == '' else address, port))
     print('Сервер запущен c адресом прослушивания: ', 'ALL' if address == '' else address, ' на порту: ', port)
 
-    # Чтение запросов
+    # Чтение и отправка запросов
+    clients = []
     while True:
-        client, addr = server.accept()
-        presence = get_message(client)
-        log_info(f'Получен запрос от клиента, с адреса: {addr[0]}')
-        print('Получен запрос от клиента, с адреса: ', addr[0])
-        print(presence)
-        response = presence_response(presence)
-        send_message(client, response)
-        log_info(f'Отправлено presense сообщение на адрес: {addr[0]}')
-        client.close()
+        try:
+            cli, addr = server.accept()
+            presence = get_message(cli)
+            log_info(f'Получен запрос от клиента, с адреса: {addr[0]}')
+            print('Получен запрос от клиента, с адреса: ', addr[0])
+            response = presence_response(presence)
+            send_message(cli, response)
+            log_info(f'Отправлено presense сообщение на адрес: {addr[0]}')
+        except OSError:
+            pass
+        else:
+            print('Получен запрос на соединение от адреса:', addr)
+            clients.append(cli)
+        read = []
+        write = []
+        try:
+            read, write, error = select.select(clients, clients, [], 0)
+        except Exception:
+            pass
+
+        lst_msg = list_messages(read)
+        for client in write:
+            for msg in lst_msg:
+                enc_msg = encode_to_bytes(msg)
+                try:
+                    client.send(enc_msg)
+                except Exception:
+                    clients.remove(client)
