@@ -1,0 +1,2 @@
+2018-12-06 09:07:49,219 INFO decorators = {'action': 'presence', 'time': 1544069269.2195013, 'user': {'account_name': 'Guest'}} - create_presence - __main__
+2018-12-06 09:07:49,219 INFO decorators args: ({'response': 200},)= {'response': 200} - check_message - __main__
