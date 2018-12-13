@@ -7,7 +7,7 @@ from jim.settings import *
 import log.client_log_config
 import logging
 from log.decorators import Log
-from threading import Thread, Lock
+from threading import Thread
 
 # Скрипт клиента месенджера
 # флаги запуска:
@@ -137,7 +137,6 @@ def send_to_server(client):
 
 
 if __name__ == '__main__':
-    stop = Lock()
     # Создаем сокет
     client = socket(AF_INET, SOCK_STREAM)
     # Соединяемся с сервером
