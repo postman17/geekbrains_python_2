@@ -7,6 +7,7 @@ from jim.settings import *
 import log.client_log_config
 import logging
 from log.decorators import Log
+from threading import Thread, Lock
 
 # Скрипт клиента месенджера
 # флаги запуска:
@@ -116,7 +117,27 @@ def read_message(response):
     return response['message']
 
 
+def send_presence(client):
+    presence = create_presence()
+    send_message(client, presence)
+    response = get_message(client)
+    response = check_message(response)
+    print(response)
+
+
+def read_from_server(client):
+    temp = get_message(client)
+    response = read_message(temp)
+    print(response)
+
+
+def send_to_server(client):
+    message = input('Введите сообщение: ')
+    send_message(client, create_message(message))
+
+
 if __name__ == '__main__':
+    stop = Lock()
     # Создаем сокет
     client = socket(AF_INET, SOCK_STREAM)
     # Соединяемся с сервером
@@ -126,19 +147,27 @@ if __name__ == '__main__':
         print('Соединение с сервером не установлено!')
         log_critical('Соединение с сервером не установлено!')
         quit()
-    presence = create_presence()
-    send_message(client, presence)
-    response = get_message(client)
-    response = check_message(response)
-    print(response)
-
+    # presence = create_presence()
+    # send_message(client, presence)
+    # response = get_message(client)
+    # response = check_message(response)
+    # print(response)
+    thread1 = Thread(target=send_presence, args=(client,))
+    thread1.start()
+    thread1.join()
     while True:
         flag = input('Введите флаг \'r\' для чтения сообшений, \'w\' для отправки сообщения: ')
         if flag == 'r':
-            response = read_message(get_message(client))
-            print(response)
+            # response = read_message(get_message(client))
+            # print(response)
+            thread_read = Thread(target=read_from_server, args=(client,))
+            thread_read.start()
+            thread_read.join()
         elif flag == 'w':
-            message = input('Введите сообщение: ')
-            send_message(client, create_message(message))
+            # message = input('Введите сообщение: ')
+            # send_message(client, create_message(message))
+            thread_send = Thread(target=send_to_server, args=(client,))
+            thread_send.start()
+            thread_send.join()
         else:
             print('Введен неправильный флаг!')
